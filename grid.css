@@ -1,0 +1,27 @@
+.jsg { font: 13px Calibri, Arial, sans-serif; }
+.jsg table { border-collapse: collapse; table-layout: fixed; user-select: none; }
+.jsg td, .jsg th {
+  border: 1px solid #ccc; width: 80px; height: 22px; padding: 0 4px;
+  overflow: hidden; white-space: nowrap; box-sizing: border-box; position: relative;
+}
+.jsg td.rn, .jsg th.rn {
+  width: 42px; background: #f5f5f5; text-align: center;
+  color: #555; font-size: 11px; cursor: default; border-color: #b8b8b8;
+}
+.jsg th.hdr {
+  background: #f0f0f0; font-weight: bold; text-align: center;
+  cursor: cell; border-color: #b0b0b0;
+}
+.jsg td.cell { background: #fff; cursor: cell; }
+.jsg td.cell.sel, .jsg th.hdr.sel { background: #bdd7f7; }
+.jsg td.cell.active, .jsg th.hdr.active {
+  outline: 2px solid #1565c0; outline-offset: -2px; background: #fff;
+}
+.jsg .cut { outline: 2px dashed #999; outline-offset: -2px; }
+.jsg td.rn.hdr-sel { background: #7aaac8; color: #fff; font-weight: bold; }
+.jsg th.hdr.hdr-sel { background: #c0d8eb; }
+.jsg-inp {
+  position: absolute; inset: 0; width: 100%; height: 100%;
+  border: none; outline: none; padding: 0 4px; margin: 0;
+  font: inherit; background: #fff; box-sizing: border-box; z-index: 1;
+}
